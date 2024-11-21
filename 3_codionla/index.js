@@ -61,3 +61,25 @@ function checkSum(num1, num2, num3) {
     }
 }
 checkSum(30,40,89)
+// Write a JavaScript function that takes the current temperature as input and checks:
+
+// If the temperature is 30°C or higher, return "It's hot outside."
+// If the temperature is between 20°C and 29°C, check:
+// If it's exactly 25°C, return "It's a perfect day!"
+// Otherwise, return "The weather is pleasant."
+// If the temperature is below 20°C, return "It's cold outside."
+function checkTemperature(temperature) {
+    if (temperature >= 30) {
+        return "It's hot outside.";
+    } else if (temperature >= 20 && temperature <= 29) {
+        if (temperature === 25) {
+            return "It is a perfect day!";
+        } else {
+            return "The weather is pleasant.";
+        }
+    } else {
+        return "It iss cold outside.";
+    }
+}
+
+console.log(checkTemperature(32)); //It is hot outside.
