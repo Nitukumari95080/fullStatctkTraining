@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Declares the document type as HTML5 to enable standards-compliant rendering in modern browsers -->
+<html lang="en">
+<!-- Root element of the document; 'lang' attribute indicates the language of the content -->
+<head>
+    <!-- Metadata about the document (not displayed directly) -->
+    <meta charset="UTF-8">
+    <!-- Sets character encoding to UTF-8, supporting multiple languages and special characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures proper rendering and zooming on mobile devices -->
+    <meta name="description" content="Learn HTML5 with examples of semantic tags, multimedia, and new features.">
+    <!-- Provides a short description for search engines -->
+    <meta name="author" content="Akash Kumar">
+    <!-- Specifies the author of the document -->
+    <title>Full Stack Training</title>
+    <!-- Title of the document, displayed in the browser tab -->
+</head>
+<body>
+
+     <!-- HTML 5 features  header , footer , nav, article, section  , video , audio-->
+    <!-- Header section -->
+    <header>
+        <!-- Represents introductory content or navigation links -->
+        <h1>Welcome to Full Stack Training</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <!-- Unordered list for navigation items -->
+            <ul>
+                <li><a href="#about">About</a></li>
+                <!-- Links to sections within the page -->
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    Material UI , Ant design , Bootstrap , Sdcn 
+    <!-- Main content -->
+    <main>
+        <!-- Represents the dominant content of the page -->
+        
+        <!-- About section -->
+        <section id="about">
+            <!-- Provides information about the site -->
+            <h2>About Us</h2>
+            <p>Welcome to our website. We provide full-stack training to help you master web development.</p>
+        </section>
+
+        <!-- Services section -->
+        <section id="services">
+            <!-- Represents a thematic grouping of content -->
+            <h2>Our Services</h2>
+            <article>
+                <!-- Self-contained content block -->
+                <h3>Web Development</h3>
+                <p>Learn to build responsive and modern websites using HTML5, CSS3, and JavaScript.</p>
+            </article>
+            <article>
+                <h3>Backend Development</h3>
+                <p>Master server-side programming with Node.js, Express, and databases.</p>
+            </article>
+        </section>
+
+        <!-- Sidebar with additional information -->
+        <aside>
+            <!-- Represents content indirectly related to the main content -->
+            <h3>Why Choose Us?</h3>
+            <p>Our hands-on approach ensures you learn by building real-world projects.</p>
+        </aside>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Form for user input -->
+            <form>
+                <!-- Labels and input fields for form elements -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your message"></textarea><br>
+
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Multimedia section -->
+    <section>
+        <h2>Watch and Listen</h2>
+        <!-- Video element -->
+        <video controls width="320" height="240">
+            <source src="bhakti.mp4" type="video/mp4">
+            <!-- Fallback text if the browser doesn't support the video element -->
+            Your browser does not support the video tag.
+        </video>
+        <!-- Audio element -->
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            <!-- Fallback text if the browser doesn't support the audio element -->
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Represents footer content -->
+        <p>&copy; 2024 Full Stack Training. All rights reserved.</p>
+    </footer>
+</body>
+</html>
