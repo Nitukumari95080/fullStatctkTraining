@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>api Project</title>
+    <!-- add css file -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font awase -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header>
+      <nav>
+        <h1>Recipi <span id="logo">App</span> </h1>
+        <form>
+          <input
+            type="text"
+            placeholder="search for recipes.."
+            class="searchBox"
+          />
+          <button class="btn" type="button">Search</button>
+        </form>
+      </nav>
+    </header>
+    <!-- recipie container -->
+     <manin>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipeCloseBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="reicpeDetailsContent"></div>
+            </div>
+        </section>
+     </manin>
+    <!-- add js file -->
+    <script src="./index.js"></script>
+  </body>
+</html>
