@@ -1,0 +1,21 @@
+/* * -> is a universial selectors  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element selector */
+li{
+    color: brown;
+}
+/* id selector select to #id_name */
+#idSelector{
+    color: black;
+}
+/* id selector select to .class_Name */
+.classSelectors{
+     color: aqua;
+}
+/* multiple element select to all tag ex-  */
+span,p,pre,main,div{
+    color: blue;
+}

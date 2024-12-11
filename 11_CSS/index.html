@@ -4,14 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css pratice</title>
+    <!-- add css file -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h3>CSS</h3>
-    <p>
-      HTML is used to defining layout of a page . CSS is used to add styling to
-      that page created using HTML. Java Script is used to program logic for the
-      page layout.
-    </p>
-    
+    <div class="css">
+      <h3>CSS</h3>
+      <p>
+        HTML is used to defining layout of a page . CSS is used to add styling
+        to that page created using HTML. Java Script is used to program logic
+        for the page layout.
+      </p>
+    </div>
+    <div class="css">
+      <h3>Css Selectores</h3>
+      <ul>
+        <li>Element Selectors</li>
+        <p>It is used to select an element based off the tagname</p>
+        <li>id Selector</li>
+        <p id="idSelector">It is used to select an element with a given id.</p>
+        <li>clss Selectors</li>
+        <p class="classSelectors">
+          It is used to select an element with a given class.
+        </p>
+      </ul>
+    </div>
+    <div class="css">
+      <h3>Multiple element selectors</h3>
+      <ul>
+        <pre>Multiple Element Selectors</pre>
+        <main>Element1</main>
+        <span>Element2</span>
+        <div>Element3</div>
+        <p>Element4</p>
+      </ul>
+    </div>
+
+    <div class="css">
+      <h3>color property</h3>
+      <p>Types of color vlaue</p>
+      <ul>
+        <li>
+          RGB-->
+          <p>
+            specify color using using red,green,blue values.eg-rgb(200,93,69)
+          </p>
+        </li>
+        <li>
+          hEX CODE-->
+          <p>specify color using hex code. eg- #ff7180</p>
+        </li>
+        <li>
+          HSL-->
+          <p>
+            specify the code using hsl values(hue,saturation.lightness) eg:
+            hsl(8,90%,63%
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="css">
+      <h3 class="red">background-color property Tag--></h3>
+      <pre>
+.red{
+      background-color:red
+    }
+   </pre
+      >
+    </div>
+
+    <div class="css">
+      <h3 class="background-image">Background-image property</h3>
+      <pre>
+    .background-image{
+      backround-image:url(`aysh.jpg`)
+    }
+  </pre
+      >
+      <h4>The background-repeat property</h4>
+      <ul>
+        <li>The image is by default repeated in x & y direction.</li>
+        <li>epeat-x --> repeat in horizontal direction</li>
+        <li>epeat-x --> repeat in vertical direction</li>
+        <li>No-repeat --> image not repeated
+        </li>
+      </ul>
+      <h4>The background-size property</h4>
+      <ul>
+        <li>Cover --> fits & no empty space remains.</li>
+        <li>contain --> fits & image is fully visible
+        </li>
+        <li>Auto --> display in original size</li>
+        <li>{Width} --> set width & height will be set automatically</li>
+        <li>{width} {height} -->set width and height</li>
+      </ul>
+    </div>
   </body>
 </html>
